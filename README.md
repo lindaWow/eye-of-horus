@@ -4,7 +4,13 @@
 
 [在线体验](https://lindawow.github.io/eye-of-horus/)
 
-![荷鲁斯之眼项目预览](assets/preview.png)
+### 开场：Open the Eye
+
+![荷鲁斯之眼开场界面](assets/preview-intro.png)
+
+### 生成场：Generative Field
+
+![荷鲁斯之眼生成画布与参数面板](assets/preview-field.png)
 
 ## 项目概念
 
@@ -56,7 +62,8 @@ python3 -m http.server 8000
 ```text
 .
 ├── index.html                  # 完整交互作品
-├── assets/preview.png          # 项目预览图
+├── assets/preview-intro.png    # 开场界面预览
+├── assets/preview-field.png    # 生成画布预览
 ├── .github/workflows/pages.yml # GitHub Pages 自动发布
 └── README.md                   # 项目说明
 ```
